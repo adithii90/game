@@ -13,13 +13,13 @@ if st.button("go"):
     else : 
         if title=="rock" and a=="scissors" : 
             st.success("you won!")
-            st.balloon()
+            st.balloons()
         elif title=="scissors" and a=="paper" :
             st.success("You won!")
-            st.balloon()
+            st.balloons()
         elif title=="paper" and a=="rock" :
             st.success("you won!")
-            st.balloon()
+            st.balloons()
         else :
             st.warning("You lose!")
             st.snow()
