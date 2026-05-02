@@ -12,11 +12,15 @@ if st.button("go"):
     else : 
         if title=="rock" and a=="scissors" : 
             st.success("you won!")
+            st.balloon()
         elif title=="scissors" and a=="paper" :
             st.success("You won!")
+            st.balloon()
         elif title=="paper" and a=="rock" :
             st.success("you won!")
+            st.balloon()
         else :
             st.warning("You lose!")
+            st.snow()
     st.write("You have put "+ str(title))
     st.write(" the computer has put "+ str(a))
