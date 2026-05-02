@@ -3,9 +3,6 @@ import random
 st.title("Rock Paper Scissor GAME")
 st.subheader("Created by adithii")
 st.write("You will be playing rock paper scisscor with the computer.Enter your choice in the box and may the best win!")
-
-
-
 title = st.text_input(label="Enter Input",value= "Rock, Paper, scissors")
 a=random.choice(["rock","paper","scissors"])
 
